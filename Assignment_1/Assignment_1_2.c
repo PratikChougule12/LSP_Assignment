@@ -7,7 +7,7 @@ int main()
 {
     int fd = 0;
 
-    fd = open("Demo.txt",O_RDONLY,O_RDONLY,O_WRONLY,O_WRONLY,O_APPEND | O_CREAT);
+    fd = open("./Demo.txt",O_RDONLY,O_RDONLY,O_WRONLY,O_WRONLY,O_APPEND | O_CREAT);
 
     if(fd == -1)
     {
