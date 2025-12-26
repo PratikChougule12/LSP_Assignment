@@ -9,7 +9,7 @@ int main()
     struct stat sobj;
     int iRet = 0;
 
-    iRet = stat("Demo.txt",&sobj);
+    iRet = stat("./Demo.txt",&sobj);
 
     printf("Total size : %ld\n",sobj.st_size);
     printf("Inode number : %ld\n",sobj.st_ino);
