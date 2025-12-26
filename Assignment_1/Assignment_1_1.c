@@ -7,7 +7,7 @@ int main()
 {
     int fd = 0;
 
-    fd = open("Demo.txt",O_RDONLY );
+    fd = open("./Demo.txt",O_RDONLY );
 
     if(fd == -1)
     {
