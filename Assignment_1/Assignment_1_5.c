@@ -14,7 +14,7 @@ int main()
 
     memset(Buffer,'\0',SIZE_BUFFER);
 
-    fd = open("Demo.txt",O_RDONLY);
+    fd = open("./Demo.txt",O_RDONLY);
     
     if(fd < 0)
     {
