@@ -7,7 +7,7 @@ int main()
 {
     int fd = 0;
 
-    fd = access("Demo.txt",F_OK |R_OK | W_OK);
+    fd = access("./Demo.txt",F_OK |R_OK | W_OK);
 
     if(fd == -1)
     {
